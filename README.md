@@ -248,49 +248,50 @@ After installation, you can log in using the following demo accounts:
 
 ```
 bookmyhotel/
-├── config/
-│   └── database.php
-├── includes/
-│   ├── header.php
-│   └── footer.php
+├── api/
+│   ├── get_bookings.php
+│   ├── get_hotels.php
+│   ├── get_room_availability.php
+│   ├── get_rooms.php
+│   └── make_booking.php
 ├── assets/
 │   ├── css/
 │   │   └── style.css
 │   └── js/
 │       └── script.js
-├── api/
-│   ├── get_hotels.php
-│   ├── get_rooms.php
-│   ├── get_room_availability.php
-│   ├── make_booking.php
-│   └── get_bookings.php
+├── config/
+│   └── database.php
 ├── database/
 │   └── bookmyhotel.sql
-├── index.php
-├── login.php
+├── includes/
+│   ├── footer.php
+│   └── header.php
+├── admin-dashboard.php
+├── admin-hotels.php
 ├── admin-login.php
-├── staff-login.php
-├── maintenance-login.php
-├── register.php
-├── logout.php
-├── hotels.php
-├── hotel-detail.php
-├── search.php
+├── admin-rooms.php
 ├── booking.php
-├── my-bookings.php
 ├── cancel-booking.php
 ├── contact.php
-├── profile.php
-├── submit-review.php
-├── notifications.php
-├── admin-dashboard.php
-├── staff-dashboard.php
-├── maintenance-dashboard.php
-├── admin-hotels.php
-├── admin-rooms.php
-├── manage-customers.php
 ├── customer-tickets.php
+├── dashboard.php
+├── hotel-detail.php
+├── hotels.php
+├── index.php
+├── login.php
+├── logout.php
+├── maintenance-dashboard.php
+├── maintenance-login.php
+├── manage-customers.php
+├── my-bookings.php
+├── notifications.php
+├── profile.php
 ├── promotions.php
+├── register.php
+├── search.php
+├── staff-dashboard.php
+├── staff-login.php
+├── submit-review.php
 └── README.md
 ```
 
